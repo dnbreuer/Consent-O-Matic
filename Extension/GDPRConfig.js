@@ -303,12 +303,12 @@ export default class GDPRConfig {
 }
 
 GDPRConfig.defaultValues = {
-    "A": false,
-    "B": false,
-    "D": false,
-    "E": false,
-    "F": false,
-    "X": false
+    "A": true,
+    "B": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "X": true
 };
 
 GDPRConfig.defaultSettings = {
@@ -328,7 +328,7 @@ GDPRConfig.defaultDebugFlags = {
     "skipSubmitConfirmation": false,
     "dontHideProgressDialog": false,
     "skipOpenMethod": false,
-    "autoOpenOptionsTab": true
+    "autoOpenOptionsTab": false
 };
 
 GDPRConfig.defaultRuleLists = [
