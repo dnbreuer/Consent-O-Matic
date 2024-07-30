@@ -8,7 +8,8 @@
     "url": "https://github.com/cavi-au/Consent-O-Matic"
   },
   "scripts": {
-    "build": "webpack"
+    "build_functional": "webpack --env functional",
+    "build_all": "webpack"
   },
   "dependencies": {
     "glob": "^10.3.12",

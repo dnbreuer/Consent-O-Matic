@@ -304,11 +304,11 @@ export default class GDPRConfig {
 
 GDPRConfig.defaultValues = {
     "A": true,
-    "B": true,
-    "D": true,
-    "E": true,
-    "F": true,
-    "X": true
+    "B": CONSENT_ALL,
+    "D": CONSENT_ALL,
+    "E": CONSENT_ALL,
+    "F": CONSENT_ALL,
+    "X": CONSENT_ALL
 };
 
 GDPRConfig.defaultSettings = {
